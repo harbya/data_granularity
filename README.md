@@ -1,6 +1,6 @@
 
 
-# Advantages of keeping data history instead of overwritting
+# Advantages of keeping data history instead of overwriting
 
 #
 #
