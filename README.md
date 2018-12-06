@@ -65,6 +65,7 @@ ID FIRSTNAME LASTNAME MARITAL EDUCATION JOBTITLE POSTCODE ADDRESS               
 3  william   harme    single  electrici tradie   2477     8 karoo rd , huntindale     2018-08-02-16
 4  nicholas  west     married engineer  tradie   3466     3 high st, scorby           2018-08-02-16
 5  gerd      white    single  engineer  business 4884     9 highvale st, point cook   2018-08-02-16
+5  gerd      white    single  engineer  business 3750     12 henderson rd,toorak      2018-08-02-16
 
 
 ```
@@ -75,7 +76,7 @@ Now we have two rows with **'id = 1'** which is basically history about changes 
 Let's take a look another example. Assume that customer with **'id = 5' *** move to a wealthy suburb so let's update the address:
 
 ```
-"update contact_details set address = '12 henderson rd,toorak' where id = 5"
+"update contact_details set address = '12 henderson rd,toorak' , set postcode = 3750 where id = 5"
 ```
 
 Now the data in our prod system will look like:
