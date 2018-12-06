@@ -65,8 +65,6 @@ ID FIRSTNAME LASTNAME MARITAL EDUCATION JOBTITLE POSTCODE ADDRESS               
 3  william   harme    single  electrici tradie   2477     8 karoo rd , huntindale     2018-08-02-16
 4  nicholas  west     married engineer  tradie   3466     3 high st, scorby           2018-08-02-16
 5  gerd      white    single  engineer  business 4884     9 highvale st, point cook   2018-08-02-16
-5  gerd      white    single  engineer  business 3750     12 henderson rd,toorak      2018-08-02-16
-
 
 ```
 
@@ -109,7 +107,7 @@ ID FIRSTNAME LASTNAME MARITAL EDUCATION JOBTITLE POSTCODE ADDRESS               
 so basically we lost the previous address of our customer.
 
 
- But if instead the keep the change into the history table:
+ But if instead the keep the change into the history table by inserting a new row:
 
 ```
 ID FIRSTNAME LASTNAME MARITAL EDUCATION JOBTITLE POSTCODE ADDRESS                     UPDATED_TIME 
@@ -121,6 +119,7 @@ ID FIRSTNAME LASTNAME MARITAL EDUCATION JOBTITLE POSTCODE ADDRESS               
 3  william   harme    single  electrici tradie   2477     8 karoo rd , huntindale     2018-08-02-16
 4  nicholas  west     married engineer  tradie   3466     3 high st, scorby           2018-08-02-16
 5  gerd      white    single  engineer  business 4884     9 highvale st, point cook   2018-08-02-16
+5  gerd      white    single  engineer  business 3750     12 henderson rd,toorak      2018-08-02-16
 
 ```
 
